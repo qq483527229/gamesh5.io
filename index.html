@@ -55,7 +55,7 @@
           <input type="text" />
         </div>
       </div>
-      <a href="#uid">点击领取</a>
+      <a href="#uid" onclick="play()">点击领取</a>
     </div>
     <div class="im2">
       <img src="./img/95d1e5ec-e2c9-433c-b4e5-d48faf25f037.jpg" alt="" />
@@ -67,7 +67,7 @@
 
     <div class="title" id="uid">领取蛋仔皮肤⬇️</div>
     <div class="index1">
-      <video muted autoplay preload loop poster="./img/95d1e5ec-e2c9-433c-b4e5-d48faf25f037.jpg"
+      <video id="video" muted autoplay preload loop poster="./img/95d1e5ec-e2c9-433c-b4e5-d48faf25f037.jpg"
         x5-video-player-fullscreen="true" x5-playsinline playsinline webkit-playsinline controls=""
         style="width: 80%; margin: 0 auto; display: block">
         <source src="./img/video(5).mp4" type="video/mp4">
@@ -80,6 +80,13 @@
     </div>
   </div>
   </div>
+
+  <script>
+    let c = document.getElementById('video')
+    function play() {
+      c.play()
+    }
+  </script>
 
 </body>
 

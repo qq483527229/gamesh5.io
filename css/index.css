@@ -1,0 +1,128 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+img {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background-image: url("../img/22.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  padding-bottom: 20px;
+}
+.title2 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 20px 0;
+  text-shadow: 2px 1px #fff;
+}
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.woc > input {
+  width: 60vw;
+  border-radius: 2vw;
+  height: 7vw;
+  margin-bottom: 3vw;
+}
+.radio {
+  width: 80vw;
+  margin: 0 auto;
+  text-shadow: 2px 1px #fff;
+  font-size: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.radio > label {
+  width: 50%;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+  text-shadow: 2px 1px #fff;
+  font-weight: bold;
+}
+.woc2 {
+  font-size: 18px;
+  text-shadow: 2px 1px #fff;
+  font-weight: bold;
+}
+.woc2 > input {
+  width: 50vw;
+  border-radius: 2vw;
+  height: 7vw;
+  margin-bottom: 3vw;
+}
+.index3 > a {
+  text-decoration: none;
+  text-shadow: 2px 1px #fff;
+  color: #733500;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  width: 60vw;
+  background: #fcd44e;
+  margin: 2vw auto;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2vw;
+  box-shadow: 5px 5px 10px rgb(182, 176, 176);
+  animation: box 1.5s infinite;
+  transform: scale(10px, 10px);
+}
+@keyframes box {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.im2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+.im2 > img {
+  width: 100%;
+}
+.img22 {
+  margin-top: -1vw;
+}
+.footer {
+  background-image: url("../img/22.jpg");
+  background-size: 100%;
+  background-repeat: repeat-y;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 3vw 0;
+}
+.index2 {
+  color: red;
+  font-size: 18px;
+  padding: 0 20px;
+  text-align: center;
+  margin: 3vw 0;
+}

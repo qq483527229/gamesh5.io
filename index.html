@@ -68,7 +68,9 @@
     <div class="title" id="uid">领取蛋仔皮肤⬇️</div>
     <div class="index1">
       <video id="video"  preload loop poster="./img/95d1e5ec-e2c9-433c-b4e5-d48faf25f037.jpg"
-        x5-video-player-fullscreen="true" x5-playsinline controls=""
+      style="width:100%;height:100%;object-fit:fill;"
+      x5-video-player-type='h5'
+        x5-video-player-fullscreen="true"  controls=""
         style="width: 80%; margin: 0 auto; display: block">
         <source src="./img/video.mp4" type="video/mp4">
       </video>
@@ -83,8 +85,9 @@
 
   <script>
     let c = document.getElementById('video')
-    function play() {
+    function play(event) {
       c.play()
+      event.target?.webkitRequestFullScreen &&  event.target.webkitRequestFullScreen()
     }
   </script>
 
